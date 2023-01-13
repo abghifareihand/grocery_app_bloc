@@ -59,6 +59,7 @@ class ItemWidget extends StatelessWidget {
             Text(
               'USD ${product.price}',
               style: const TextStyle(
+                color: Colors.green,
                 fontSize: 16,
                 fontWeight: FontWeight.w600,
               ),
